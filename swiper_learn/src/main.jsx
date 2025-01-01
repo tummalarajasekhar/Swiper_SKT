@@ -5,12 +5,14 @@ import Slider from './Slider.jsx'
 import UploadPost from './UploadPost.jsx'
 import SwiperCards from './SwiperCards.jsx'
 import FullWidthSlider from './FullWidthSider.jsx'
+import FrontendMain from './FrontendMain.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <FullWidthSlider/>
+    {/* <FullWidthSlider/> */}
     {/* <Slider /> */}
-    <UploadPost/>
-    <SwiperCards/>
+    {/* <UploadPost/> */}
+    {/* <SwiperCards/> */}
+    <FrontendMain/>
   </StrictMode>,
 )
